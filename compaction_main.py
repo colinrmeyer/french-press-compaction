@@ -55,7 +55,7 @@ if __name__ == "__main__":
     # plot the solution
     f = plt.figure()
     for i in range(np.size(sol.t)):
-        h = 1-sol.t[i]7.. 
+        h = 1-sol.t[i] 
         plt.semilogx(sol.y[:,i],prms.y*h,'k-')
         plt.rc('text', usetex=True)
         plt.rc('font', family='serif')
